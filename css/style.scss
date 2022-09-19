@@ -11,3 +11,8 @@ $shows: #241C1A;
     box-sizing: border-box;
     font-family: 'Cinzel', serif;
 }
+html, body {
+    background-color: $background;
+    width: 100%;
+    height: 100%;
+}
