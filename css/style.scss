@@ -5,6 +5,10 @@ $books: #130807;
 $movies: #382628;
 $shows: #241C1A;
 
+@import "./main";
+@import "./nav";
+
+
 *{
     margin: 0;
     padding: 0;
