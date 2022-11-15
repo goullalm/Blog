@@ -4,9 +4,12 @@ $music: #43443F;
 $books: #130807;
 $movies: #382628;
 $shows: #241C1A;
+$borderb: #594B4636;
+
 
 @import "./main";
 @import "./nav";
+@import "./articles";
 
 
 *{
@@ -14,9 +17,10 @@ $shows: #241C1A;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Cinzel', serif;
+   
 }
 html, body {
-    background-color: $background;
+     background: $background;
     width: 100%;
     height: 100%;
 }
